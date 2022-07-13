@@ -1,6 +1,3 @@
-# Temptest
-For learning
-commit 1
-commit 2
-commit 3
+Aprendiendo a programar en el curso de programacion basica en Platzi
+
 
