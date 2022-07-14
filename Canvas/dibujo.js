@@ -15,17 +15,9 @@ for(l = 0; l < linea; l++)
     yi = 10 * l;
     xf = 10 * (l + 1);
     dibujarlinea(colores, 0, yi, xf, 300);
-    console.log("linea " + l);
-}
-
-for(l = 0; l < linea; l++)
-{
-    yi = 10 * l;
-    xf = 10 * (l + 1);
     dibujarlinea(colores, 300, yi, xf, 0);
     console.log("linea " + l);
 }
-
 
 function dibujarlinea(color, xinicial, yinicial, xfinal, yfinal)
 {
