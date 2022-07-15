@@ -26,6 +26,6 @@ function finLinea(){ //Esta función me vuelve a poner al mouse como nulo, es de
 }
 function lineaMovimiento(event){ //Esta función dice 
     if(mouse == true){ //Si mouse es true -es decir si está siendo mousedown, va a dibujar.
-        dibujarLinea("colorPincel", event.layerX - 1, event.layerY - 1, event.layerX + 1, event.layerY + 1, papel);
+        dibujarLinea("colorPincel", event.layerX - 1, event.layerY - 5, event.layerX + 1, event.layerY + 1, papel);
     } //Como dibujará
 }
