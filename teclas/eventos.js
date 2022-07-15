@@ -31,11 +31,11 @@ function dibujarTeclado(evento)
         break;
         case teclas.RIGHT:
             dibujarlinea(colorcito, x, y, x + movimiento, y, papel);
-            x = x + movimiento; 
+            x = x + movimiento;
         break;
         case teclas.LEFT:
             dibujarlinea(colorcito, x, y, x - movimiento, y, papel);
-            x = x - movimiento; 
+            x = x - movimiento;
         break;
     }
 }
@@ -47,5 +47,5 @@ function dibujarlinea(color, xinicial, yinicial, xfinal, yfinal, lienzo)
     lienzo.moveTo(xinicial, yinicial);
     lienzo.lineTo(xfinal, yfinal);
     lienzo.stroke();
-    lienzo.closePath();   
+    lienzo.closePath();
 }
