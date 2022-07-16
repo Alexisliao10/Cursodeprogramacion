@@ -32,8 +32,12 @@ var pokacho = new Pakiman("pokacho", 80, 50);
 var tocinauro = new Pakiman("tocinauro", 120, 40);
 
 var coleccion = [];
-coleccion.push(cauchin);
-coleccion.push(pokacho);
-coleccion.push(tocinauro);
+coleccion.push(new Pakiman("cauchin", 100, 30));
+coleccion.push(new Pakiman("pokacho", 80, 50));
+coleccion.push(new Pakiman("tocinauro", 120, 40));
 
 console.log(coleccion)
+
+for(var pakin of coleccion) {
+	pakin.mostrar();
+}
