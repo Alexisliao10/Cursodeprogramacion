@@ -34,6 +34,15 @@ var pokacho = new Pakiman("pokacho", 80, 50);
 var tocinauro = new Pakiman("tocinauro", 120, 40);
 console.log(cauchin, pokacho, tocinauro);
 
+<<<<<<< HEAD
 pokacho.mostrar();
 tocinauro.mostrar();
 cauchin.mostrar();
+=======
+var coleccion = [];
+coleccion.push(cauchin);
+coleccion.push(pokacho);
+coleccion.push(tocinauro);
+
+console.log(coleccion);
+>>>>>>> 31c486b (no pude separa las clases con las funciones en diferentes .js)
