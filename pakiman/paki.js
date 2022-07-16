@@ -2,8 +2,6 @@ var imagenes = [];
 imagenes["cauchin"] = "/AnimalesPNG/vaca.png";
 imagenes["pokacho"] = "/AnimalesPNG/pollo.png";
 imagenes["tocinauro"] = "/AnimalesPNG/cerdo.png";
-
-console.log(imagenes);
 class Pakiman {
 	constructor(name, health, attack) {
 		this.nombre = name;
@@ -32,17 +30,10 @@ class Pakiman {
 var cauchin = new Pakiman("cauchin", 100, 30);
 var pokacho = new Pakiman("pokacho", 80, 50);
 var tocinauro = new Pakiman("tocinauro", 120, 40);
-console.log(cauchin, pokacho, tocinauro);
 
-<<<<<<< HEAD
-pokacho.mostrar();
-tocinauro.mostrar();
-cauchin.mostrar();
-=======
 var coleccion = [];
 coleccion.push(cauchin);
 coleccion.push(pokacho);
 coleccion.push(tocinauro);
 
-console.log(coleccion);
->>>>>>> 31c486b (no pude separa las clases con las funciones en diferentes .js)
+console.log(coleccion)
