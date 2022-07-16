@@ -1,9 +1,3 @@
-var imagenes = [];
-imagenes["cauchin"] = "/AnimalesPNG/vaca.png";
-imagenes["pokacho"] = "/AnimalesPNG/pollo.png";
-imagenes["tocinauro"] = "/AnimalesPNG/cerdo.png";
-
-console.log(imagenes);
 class Pakiman {
 	constructor(name, health, attack) {
 		this.nombre = name;
@@ -26,14 +20,3 @@ class Pakiman {
 		document.write("</p>");
 	}
 }
-
-
-//cauching(vaca), pokacho(pollo), tocinauro(cerdo)
-var cauchin = new Pakiman("cauchin", 100, 30);
-var pokacho = new Pakiman("pokacho", 80, 50);
-var tocinauro = new Pakiman("tocinauro", 120, 40);
-console.log(cauchin, pokacho, tocinauro);
-
-pokacho.mostrar();
-tocinauro.mostrar();
-cauchin.mostrar();
